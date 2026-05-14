@@ -1,6 +1,6 @@
 using System;
 
-static void Entry
+public class Entry
 {
     
 }
