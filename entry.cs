@@ -1,6 +1,6 @@
 using System;
 
-static void entry
+static void Entry
 {
     
 }
