@@ -35,6 +35,6 @@ public class Entry
     /// <returns>string</returns>
     public string ToFileString()
     {
-        return $"{_bmpDate}|{_bmpPrompt}|{_bmpWriting}|";
+        return $"{_bmpDate}|{_bmpPrompt}|{_bmpWriting}";
     }
 }
