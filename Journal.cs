@@ -51,7 +51,7 @@ public class Journal{
         
 
         Random bmpRandNum = new Random();
-        string bmpNewPrompt = _prompts[bmpRandNum.Next(_prompts.Count()+1)];
+        string bmpNewPrompt = _prompts[bmpRandNum.Next(_prompts.Count())];
         //save the randomly selected prompt to the entry
         bmpNewEntry._bmpPrompt = bmpNewPrompt;
         Console.WriteLine(bmpNewPrompt);
