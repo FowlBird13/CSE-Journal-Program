@@ -17,6 +17,14 @@ public class Menu
     //This boolean is used as a flag for the loop that keeps the menu running.
     public bool _bmpInUse = true;
 
+    //A list that menu will pull up a prompt from when a user selects 1. write
+    public List<string> _prompts = new List<string> {
+        "Who was the most interesting person I interacted with today?",
+        "What was the best part of my day?",
+        "How did I see the hand of the Lord in my life today?",
+        "What was the strongest emotion I felt today?",
+        "If I had one thing I could do over today, what would it be?"};
+
     /// <summary>
     /// This is an initializer. I didn't really know this was a thing before but basically
     /// it creates default values for the variables of any new Menu instance and doesn't 
