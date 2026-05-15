@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.Contracts;
 
 public class Entry
 {
@@ -26,5 +27,14 @@ public class Entry
     {
         DateTime bmpToday = DateTime.Now;
         _bmpDate = bmpToday.ToString("yyyy-MM-dd");
+    }
+
+    /// <summary>
+    /// Returns the entry as a formatted string with the parts seperated by "|" characters.
+    /// </summary>
+    /// <returns>string</returns>
+    public string ToFileString()
+    {
+        return $"{_bmpDate}|{_bmpPrompt}|{_bmpWriting}|";
     }
 }

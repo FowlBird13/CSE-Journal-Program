@@ -26,9 +26,9 @@ public class Menu
     {
 
         // Default methods are set to empty lambdas until I have the real functions
-        _BmpOptions.Add(("Write", _bmpActiveJornal.BmpWriteEntry));
+        _BmpOptions.Add(("Write", BmpWriteEntry));
         _BmpOptions.Add(("Display", _bmpActiveJornal.displayJornal));
-        _BmpOptions.Add(("Save", () => {}));
+        _BmpOptions.Add(("Save", _bmpActiveJornal.saveEntriesToJornal));
         _BmpOptions.Add(("Load", () => {}));
         _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
 
@@ -73,11 +73,6 @@ public class Menu
                 Console.ResetColor();
             }
         } while (_bmpInUse);
-
-        
-        
     }
-
-    
 }
 
