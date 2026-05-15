@@ -12,7 +12,7 @@ public class Journal{
         "What was the strongest emotion I felt today?",
         "If I had one thing I could do over today, what would it be?"};
 
-    public void saveJournalAsFile()
+    public void SaveJournalAsFile()
     {
         Console.WriteLine("What is the file name?");
         string fileName = Console.ReadLine();    
@@ -26,7 +26,7 @@ public class Journal{
         Console.WriteLine($"Your journal is successfuly saved in {fileName}.");
         
     }
-    public void displayJournal()
+    public void DisplayJournal()
     {
         //displays all journal contents line by line
         foreach(Entry entry in _entries)
@@ -45,6 +45,7 @@ public class Journal{
         //set the entry date today
         bmpNewEntry.BmpSetDateToday();
         
+
         Random bmpRandNum = new Random();
         string bmpNewPrompt = _prompts[bmpRandNum.Next(_prompts.Count())];
         //save the randomly selected prompt to the entry

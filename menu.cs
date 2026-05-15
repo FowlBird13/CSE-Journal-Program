@@ -28,9 +28,9 @@ public class Menu
 
         // Default methods are set to empty lambdas until I have the real functions
         _BmpOptions.Add(("Write", _bmpActiveJournal.BmpWriteEntry));
-        _BmpOptions.Add(("Display", _bmpActiveJournal.displayJournal));
-        _BmpOptions.Add(("Save", _bmpActiveJournal.saveJournalAsFile));
-        _BmpOptions.Add(("Load", loadJournal));
+        _BmpOptions.Add(("Display", _bmpActiveJournal.DisplayJournal));
+        _BmpOptions.Add(("Save", _bmpActiveJournal.SaveJournalAsFile));
+        _BmpOptions.Add(("Load", LoadJournal));
         _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
 
         
@@ -75,7 +75,7 @@ public class Menu
             }
         } while (_bmpInUse);
     }
-    public void loadJournal()
+    public void LoadJournal()
     {   
         bool notLoaded = true;
         while (notLoaded){
