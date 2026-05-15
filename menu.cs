@@ -26,7 +26,7 @@ public class Menu
     {
 
         // Default methods are set to empty lambdas until I have the real functions
-        _BmpOptions.Add(("Write", BmpWriteEntry));
+        _BmpOptions.Add(("Write", _bmpActiveJornal.BmpWriteEntry));
         _BmpOptions.Add(("Display", _bmpActiveJornal.displayJornal));
         _BmpOptions.Add(("Save", _bmpActiveJornal.saveJornalAsFile));
         _BmpOptions.Add(("Load", () => {}));
