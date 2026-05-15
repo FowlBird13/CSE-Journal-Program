@@ -14,10 +14,9 @@ public class Entry
 /// Return the a formatted string of the date, prompt, and writing of the entry.
 /// </summary>
 /// <returns>string</returns>
-    public string ToString()
+    public string ToDisplayFormat()
     {
-        string bmpNewString = 
-        ($"{_bmpDate}\n{_bmpPrompt}\n{_bmpWriting}\n");
+        string bmpNewString = $"{_bmpDate}\n{_bmpPrompt}\n{_bmpWriting}\n";
         return bmpNewString;
     }
 
