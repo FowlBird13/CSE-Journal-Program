@@ -1,6 +1,9 @@
 using System;
 using System.Diagnostics.Contracts;
 
+/// <summary>
+/// Contains a date, prompt, and writing string.
+/// </summary>
 public class Entry
 {
     public string _bmpDate = "<No Date>";
