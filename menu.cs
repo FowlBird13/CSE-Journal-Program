@@ -105,7 +105,7 @@ public class Menu
         catch (FileNotFoundException)
         {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Cannot find a journal named '{fileName}'.");
+                Console.WriteLine($"Cannot find the file.");
                 Console.ResetColor();
         }
         catch (FileLoadException)

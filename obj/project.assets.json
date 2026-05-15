@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bradl\\.nuget\\packages\\": {}
+    "C:\\Users\\LG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
+      "projectUniqueName": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\CSEJournalProgram.csproj",
       "projectName": "CSEJournalProgram",
-      "projectPath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
-      "packagesPath": "C:\\Users\\bradl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\obj\\",
+      "projectPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\CSEJournalProgram.csproj",
+      "packagesPath": "C:\\Users\\LG\\.nuget\\packages\\",
+      "outputPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bradl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LG\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
