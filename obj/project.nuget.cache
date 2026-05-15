@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "c72BR9po6us=",
+  "dgSpecHash": "e93SJrBtd+c=",
   "success": true,
-  "projectFilePath": "e:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\CSEJournalProgram.csproj",
+  "projectFilePath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\obj\\project.nuget.cache : 'o' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
