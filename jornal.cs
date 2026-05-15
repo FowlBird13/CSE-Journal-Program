@@ -1,18 +1,21 @@
 using System;
 public class Jornal{
     //All the entries
-    List<Entry> entries;
-    //A list of prompts, I think this could go to the menu class?
-    List<string> prompts = new List<string>();
+    List<Entry> _entries;
+    
 
-    public void saveEntries()
+    public void saveEntries(List<Entry> entries)
     {//this will save all the entries from the user
         //get entries from the menu
         //
     
     }
-    public void displayJornal()
+    public void displayJornal(string jornalName)
     {
         //displays all the entries in the journal
+    }
+    public void loadJornal(string jornalName)
+    {
+        //load a jornal that matches user's input
     }
 }
