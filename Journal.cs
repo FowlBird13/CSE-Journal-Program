@@ -20,7 +20,7 @@ public class Journal{
         {
             foreach(Entry entry in _entries)
             {
-                saveJournal.WriteLine(entry.ToFileString);
+                saveJournal.WriteLine(entry.ToFileString());
             }
         }
         Console.WriteLine($"Your journal is successfuly saved in {fileName}.");
@@ -31,7 +31,7 @@ public class Journal{
         //displays all journal contents line by line
         foreach(Entry entry in _entries)
         {
-            Console.WriteLine(entry.ToDisplayFormat);
+            Console.WriteLine(entry.ToDisplayFormat());
         }
     }
 
