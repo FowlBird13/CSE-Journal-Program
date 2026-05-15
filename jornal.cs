@@ -35,7 +35,7 @@ public class Jornal{
         //displays all jornal contents line by line
         foreach(Entry entry in _entries)
         {
-            Console.WriteLine(line);
+            Console.WriteLine(entry.ToString);
         }
     }
 
@@ -46,11 +46,13 @@ public class Jornal{
     public void BmpWriteEntry()
     {
         Entry bmpNewEntry = new Entry();
+        //set the entry date today
         bmpNewEntry.BmpSetDateToday();
         
 
         Random bmpRandNum = new Random();
-        string bmpNewPrompt = _prompts[bmpRandNum.Next(_prompts.Count())];
+        string bmpNewPrompt = _prompts[bmpRandNum.Next(_prompts.Count()+1)];
+        //save the randomly selected prompt to the entry
         bmpNewEntry._bmpPrompt = bmpNewPrompt;
         Console.WriteLine(bmpNewPrompt);
 
@@ -66,6 +68,7 @@ public class Jornal{
                 {
                     throw new NullReferenceException();
                 }
+                //save the user writing 
                 bmpNewEntry._bmpWriting = bmpWriting;
                 bmpNullReferenceFlag = false;
             } catch (NullReferenceException)
@@ -77,23 +80,8 @@ public class Jornal{
             }
         } while (bmpNullReferenceFlag);
 
+        //save the entry to the jornal
         _entries.Add(bmpNewEntry);
     }
 
-    /// <summary>
-    /// Convert a string data set into an Entry type. Used for loading files.
-    /// </summary>
-    /// <param name="bmpRawText">string containing the date, prompt, and writing 
-    /// seperated by | characters.</param>
-    /// <returns>Entry</returns>
-    public Entry ParseEntry(string bmpRawText)
-    {
-        Entry bmpNewEntry = new Entry();
-        
-        bmpNewEntry._bmpDate = bmpRawText.Split("|")[0];
-        bmpNewEntry._bmpPrompt = bmpRawText.Split("|")[1];
-        bmpNewEntry._bmpWriting = bmpRawText.Split("|")[2];
-        
-        return bmpNewEntry;
-    }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 /// <summary>
 /// Create a custom menu that can allows the user to pick an option from a set.
@@ -74,7 +75,7 @@ public class Menu
             }
         } while (_bmpInUse);
     }
-    public string[] loadJournal()
+    public void loadJournal()
     {   
         bool notLoaded = true;
         while (notLoaded){
@@ -83,22 +84,36 @@ public class Menu
         //load a jornal that matches user's input
         Console.WriteLine("What is the file name?");
         string filelName = Console.ReadLine();
-        string[] jornal = System.IO.File.ReadAllLines(fileName);
+        //txt is saved in an array
+        string[] rawJournal = System.IO.File.ReadAllLines(fileName);
+        //create an empty journal
+        Jornal newJournal = new Jornal();
+        //calles each element of the array
+        foreach(string rawEntry in rawJournal)
+                {
+                Entry organizedEntry = new Entry();
+                //break the element into a date, a prompt, and a writing
+                organizedEntry._bmpDate = rawEntry.Split("|")[0];
+                organizedEntry._bmpPrompt = rawEntry.Split("|")[1];
+                organizedEntry._bmpWriting = rawEntry.Split("|")[2];
+                //add the organized entry to the empty journal
+                newJournal._entries.Add(organizedEntry);
+                }
+        _bmpActiveJornal = newJournal;
         notLoaded = false;
         } 
         catch (FileNotFoundException)
         {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"No jornal named {fileName}.");
+                Console.WriteLine($"Cannot find a journal named {fileName}.");
                 Console.ResetColor();
         }
         catch (FileLoadException)
         {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Failed to load the jornal. Try again.");
+                Console.WriteLine("Failed to load the journal. Try again.");
                 Console.ResetColor();        
                 }
-        return jornal;
         }
     }
 }
