@@ -1,6 +1,4 @@
 using System;
-using System.Runtime.InteropServices.Swift;
-using System.Security.Cryptography.X509Certificates;
 
 /// <summary>
 /// Create a custom menu that can allows the user to pick an option from a set.
@@ -17,13 +15,7 @@ public class Menu
     //This boolean is used as a flag for the loop that keeps the menu running.
     public bool _bmpInUse = true;
 
-    //A list that menu will pull up a prompt from when a user selects 1. write
-    public List<string> _prompts = new List<string> {
-        "Who was the most interesting person I interacted with today?",
-        "What was the best part of my day?",
-        "How did I see the hand of the Lord in my life today?",
-        "What was the strongest emotion I felt today?",
-        "If I had one thing I could do over today, what would it be?"};
+    public Jornal _bmpActiveJornal = new Jornal();
 
     /// <summary>
     /// This is an initializer. I didn't really know this was a thing before but basically
@@ -34,8 +26,8 @@ public class Menu
     {
 
         // Default methods are set to empty lambdas until I have the real functions
-        _BmpOptions.Add(("Write", () => {}));
-        _BmpOptions.Add(("Display", () => {}));
+        _BmpOptions.Add(("Write", _bmpActiveJornal.BmpWriteEntry));
+        _BmpOptions.Add(("Display", _bmpActiveJornal.displayJornal));
         _BmpOptions.Add(("Save", () => {}));
         _BmpOptions.Add(("Load", () => {}));
         _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
@@ -47,8 +39,9 @@ public class Menu
     /// Display the menu of options on a loop asking for integer inputs. Run's the corresponding 
     /// input's function. Returns nothing.
     /// </summary>
-    public void bmpSelect()
+    public void bmpRun()
     {
+        _bmpInUse = true;
         do
         {
             Console.WriteLine("\nSelect an option below by entering its number.\n");
