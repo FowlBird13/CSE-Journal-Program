@@ -38,33 +38,6 @@ public class Jornal{
             Console.WriteLine(line);
         }
     }
-    public string[] loadJornal()
-    {   
-        bool notLoaded = true;
-        while (notLoaded){
-        try
-        {
-        //load a jornal that matches user's input
-        Console.WriteLine("What is the file name?");
-        string filelName = Console.ReadLine();
-        string[] jornal = System.IO.File.ReadAllLines(fileName);
-        notLoaded = false;
-        } 
-        catch (FileNotFoundException)
-        {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"No jornal named {fileName}.");
-                Console.ResetColor();
-        }
-        catch (FileLoadException)
-        {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Failed to load the jornal. Try again.");
-                Console.ResetColor();        
-                }
-        return jornal;
-        }
-    }
 
     /// <summary>
     /// Prompts the user to create a new Entry with today's date and a random prompt.

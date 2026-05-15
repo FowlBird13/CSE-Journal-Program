@@ -29,7 +29,7 @@ public class Menu
         _BmpOptions.Add(("Write", _bmpActiveJornal.BmpWriteEntry));
         _BmpOptions.Add(("Display", _bmpActiveJornal.displayJornal));
         _BmpOptions.Add(("Save", _bmpActiveJornal.saveJornalAsFile));
-        _BmpOptions.Add(("Load", () => {}));
+        _BmpOptions.Add(("Load", loadJournal));
         _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
 
         
@@ -73,6 +73,33 @@ public class Menu
                 Console.ResetColor();
             }
         } while (_bmpInUse);
+    }
+    public string[] loadJournal()
+    {   
+        bool notLoaded = true;
+        while (notLoaded){
+        try
+        {
+        //load a jornal that matches user's input
+        Console.WriteLine("What is the file name?");
+        string filelName = Console.ReadLine();
+        string[] jornal = System.IO.File.ReadAllLines(fileName);
+        notLoaded = false;
+        } 
+        catch (FileNotFoundException)
+        {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"No jornal named {fileName}.");
+                Console.ResetColor();
+        }
+        catch (FileLoadException)
+        {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Failed to load the jornal. Try again.");
+                Console.ResetColor();        
+                }
+        return jornal;
+        }
     }
 }
 
