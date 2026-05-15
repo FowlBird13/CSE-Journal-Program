@@ -16,7 +16,7 @@ public class Menu
     //This boolean is used as a flag for the loop that keeps the menu running.
     public bool _bmpInUse = true;
 
-    public Jornal _bmpActiveJornal = new Jornal();
+    public Journal _bmpActiveJournal = new Journal();
 
     /// <summary>
     /// This is an initializer. I didn't really know this was a thing before but basically
@@ -27,9 +27,9 @@ public class Menu
     {
 
         // Default methods are set to empty lambdas until I have the real functions
-        _BmpOptions.Add(("Write", _bmpActiveJornal.BmpWriteEntry));
-        _BmpOptions.Add(("Display", _bmpActiveJornal.displayJornal));
-        _BmpOptions.Add(("Save", _bmpActiveJornal.saveJornalAsFile));
+        _BmpOptions.Add(("Write", _bmpActiveJournal.BmpWriteEntry));
+        _BmpOptions.Add(("Display", _bmpActiveJournal.displayJournal));
+        _BmpOptions.Add(("Save", _bmpActiveJournal.saveJournalAsFile));
         _BmpOptions.Add(("Load", loadJournal));
         _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
 
@@ -81,13 +81,13 @@ public class Menu
         while (notLoaded){
         try
         {
-        //load a jornal that matches user's input
+        //load a journal that matches user's input
         Console.WriteLine("What is the file name?");
-        string filelName = Console.ReadLine();
+        string fileName = Console.ReadLine();
         //txt is saved in an array
         string[] rawJournal = System.IO.File.ReadAllLines(fileName);
         //create an empty journal
-        Jornal newJournal = new Jornal();
+        Journal newJournal = new Journal();
         //calles each element of the array
         foreach(string rawEntry in rawJournal)
                 {
@@ -99,7 +99,7 @@ public class Menu
                 //add the organized entry to the empty journal
                 newJournal._entries.Add(organizedEntry);
                 }
-        _bmpActiveJornal = newJournal;
+        _bmpActiveJournal = newJournal;
         notLoaded = false;
         } 
         catch (FileNotFoundException)

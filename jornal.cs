@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-public class Jornal{
+public class Journal{
     //All the entries
     public List<Entry> _entries = [];
     
@@ -12,27 +12,27 @@ public class Jornal{
         "What was the strongest emotion I felt today?",
         "If I had one thing I could do over today, what would it be?"};
 
-    public void saveEntriesToJornal(List<Entry> newEntries)
+    public void saveEntriesToJournal(List<Entry> newEntries)
     {//this will save all the entries from the user
         _entries = newEntries;
     }
-    public void saveJornalAsFile()
+    public void saveJournalAsFile()
     {
         Console.WriteLine("What is the file name?");
-        string filelName = Console.ReadLine();    
-        using (StreamWriter saveJornal = new StreamWriter(filelName))
+        string fileName = Console.ReadLine();    
+        using (StreamWriter saveJournal = new StreamWriter(fileName))
         {
             foreach(Entry entry in _entries)
             {
-                saveJornal.WriteLine(entry);
+                saveJournal.WriteLine(entry);
             }
         }
-        Console.WriteLine($"Your jornal is successfuly saved in {filelName}.");
+        Console.WriteLine($"Your journal is successfuly saved in {fileName}.");
         
     }
-    public void displayJornal()
+    public void displayJournal()
     {
-        //displays all jornal contents line by line
+        //displays all journal contents line by line
         foreach(Entry entry in _entries)
         {
             Console.WriteLine(entry.ToString);
@@ -80,7 +80,7 @@ public class Jornal{
             }
         } while (bmpNullReferenceFlag);
 
-        //save the entry to the jornal
+        //save the entry to the journal
         _entries.Add(bmpNewEntry);
     }
 
