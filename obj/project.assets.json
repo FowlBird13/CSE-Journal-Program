@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\cse210-hw\\prove\\Develop02\\Develop02.csproj",
-      "projectName": "Develop02",
-      "projectPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\cse210-hw\\prove\\Develop02\\Develop02.csproj",
+      "projectUniqueName": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\CSEJournalProgram.csproj",
+      "projectName": "CSEJournalProgram",
+      "projectPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\CSEJournalProgram.csproj",
       "packagesPath": "C:\\Users\\LG\\.nuget\\packages\\",
-      "outputPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\cse210-hw\\prove\\Develop02\\obj\\",
+      "outputPath": "E:\\학교\\Idaho Sophomore-Spring\\CSE 210\\CSE-Journal-Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LG\\AppData\\Roaming\\NuGet\\NuGet.Config"
