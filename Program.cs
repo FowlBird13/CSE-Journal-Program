@@ -7,7 +7,5 @@ class Program
         //Very early stages of the menu. Still working on it.
         Menu m = new Menu();
         m.bmpSelect();
-        
-        Console.WriteLine("Hello World!");
     }
 }

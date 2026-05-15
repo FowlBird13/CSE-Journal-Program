@@ -1,4 +1,6 @@
 using System;
+using System.Runtime.InteropServices.Swift;
+using System.Security.Cryptography.X509Certificates;
 
 /// <summary>
 /// Create a custom menu that can allows the user to pick an option from a set.
@@ -12,6 +14,9 @@ public class Menu
     // no parameters and returns nothing)
     public List<(string Name, Action func)> _BmpOptions = new();
     
+    //This boolean is used as a flag for the loop that keeps the menu running.
+    public bool _bmpInUse = true;
+
     /// <summary>
     /// This is an initializer. I didn't really know this was a thing before but basically
     /// it creates default values for the variables of any new Menu instance and doesn't 
@@ -19,24 +24,57 @@ public class Menu
     /// </summary>
     public Menu()
     {
+
         // Default methods are set to empty lambdas until I have the real functions
         _BmpOptions.Add(("Write", () => {}));
         _BmpOptions.Add(("Display", () => {}));
         _BmpOptions.Add(("Save", () => {}));
         _BmpOptions.Add(("Load", () => {}));
-        _BmpOptions.Add(("Quit", () => {}));
+        _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
+
+        
     }
 
     /// <summary>
-    /// Display the menu of options and ask for an integer input. Run's the corresponding 
+    /// Display the menu of options on a loop asking for integer inputs. Run's the corresponding 
     /// input's function. Returns nothing.
     /// </summary>
     public void bmpSelect()
     {
-        for (int i = 0; i < _BmpOptions.Count(); i++)
+        do
         {
-            Console.WriteLine($"\t{i}. {_BmpOptions[i].Name}");
-        }
+            Console.WriteLine("\nSelect an option below by entering its number.\n");
+
+            for (int i = 0; i < _BmpOptions.Count(); i++)
+            {
+                Console.WriteLine($"\t{i+1}. {_BmpOptions[i].Name}");
+            }
+
+            try
+            {
+                int bmpSelectedInt = int.Parse(Console.ReadLine())-1;
+                
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine($"Selected: {_BmpOptions[bmpSelectedInt].Name}");
+                Console.ResetColor();
+
+                _BmpOptions[bmpSelectedInt].func();
+
+            } catch (FormatException)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid Argument. The entry must be a listed integer.");
+                Console.ResetColor();
+            } catch (ArgumentOutOfRangeException)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("The entered integer did not match a list item.");
+                Console.ResetColor();
+            }
+        } while (_bmpInUse);
+
+        
+        
     }
 
     
