@@ -106,4 +106,21 @@ public class Jornal{
 
         _entries.Add(bmpNewEntry);
     }
+
+    /// <summary>
+    /// Convert a string data set into an Entry type. Used for loading files.
+    /// </summary>
+    /// <param name="bmpRawText">string containing the date, prompt, and writing 
+    /// seperated by | characters.</param>
+    /// <returns>Entry</returns>
+    public Entry ParseEntry(string bmpRawText)
+    {
+        Entry bmpNewEntry = new Entry();
+        
+        bmpNewEntry._bmpDate = bmpRawText.Split("|")[0];
+        bmpNewEntry._bmpPrompt = bmpRawText.Split("|")[1];
+        bmpNewEntry._bmpWriting = bmpRawText.Split("|")[2];
+        
+        return bmpNewEntry;
+    }
 }
