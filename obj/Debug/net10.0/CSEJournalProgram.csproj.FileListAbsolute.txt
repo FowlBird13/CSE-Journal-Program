@@ -1,30 +1,15 @@
-C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfoInputs.cache
-C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfo.cs
-C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.csproj.CoreCompileInputs.cache
-C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.sourcelink.json
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.exe
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.deps.json
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.runtimeconfig.json
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.dll
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.pdb
+C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfoInputs.cache
+C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfo.cs
+C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.csproj.CoreCompileInputs.cache
+C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.sourcelink.json
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.dll
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\refint\CSEJournalProgram.dll
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.pdb
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.genruntimeconfig.cache
 C:\Users\bradl\Documents\Classes 2026 on harddrive\Spring\cse210-projects\journal\CSEJournalProgram\obj\Debug\net10.0\ref\CSEJournalProgram.dll
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\bin\Debug\net10.0\CSEJournalProgram.exe
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\bin\Debug\net10.0\CSEJournalProgram.deps.json
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\bin\Debug\net10.0\CSEJournalProgram.runtimeconfig.json
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\bin\Debug\net10.0\CSEJournalProgram.dll
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\bin\Debug\net10.0\CSEJournalProgram.pdb
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.GeneratedMSBuildEditorConfig.editorconfig
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfoInputs.cache
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfo.cs
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.csproj.CoreCompileInputs.cache
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.sourcelink.json
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.dll
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\refint\CSEJournalProgram.dll
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.pdb
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.genruntimeconfig.cache
-e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\ref\CSEJournalProgram.dll
