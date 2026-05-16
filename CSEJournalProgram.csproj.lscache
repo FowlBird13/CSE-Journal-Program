@@ -62,11 +62,19 @@ obj/Debug/net10.0/
  CSEJournalProgram.AssemblyInfo.cs
  CSEJournalProgram.GlobalUsings.g.cs
 Program.cs
+<<<<<<< HEAD
 Readingfile.cs
 Writingtofile.cs
 
 [metadataReferences]
 <DOTNET>/packs/Microsoft.NETCore.App.Ref/10.0.6/ref/net10.0/
+=======
+Reading-file.cs
+Writing-to-file.cs
+
+[metadataReferences]
+<DOTNET>/packs/Microsoft.NETCore.App.Ref/10.0.7/ref/net10.0/
+>>>>>>> 9dc8168d2c301e9c05f9fbb018a1f28d4a8c5f99
  Microsoft.CSharp.dll
  Microsoft.VisualBasic.Core.dll
  Microsoft.VisualBasic.dll
@@ -236,17 +244,29 @@ Writingtofile.cs
  WindowsBase.dll
 
 [analyzerReferences]
+<<<<<<< HEAD
 <DOTNET>/packs/Microsoft.NETCore.App.Ref/10.0.6/analyzers/dotnet/cs/
+=======
+<DOTNET>/packs/Microsoft.NETCore.App.Ref/10.0.7/analyzers/dotnet/cs/
+>>>>>>> 9dc8168d2c301e9c05f9fbb018a1f28d4a8c5f99
  Microsoft.Interop.ComInterfaceGenerator.dll
  Microsoft.Interop.JavaScript.JSImportGenerator.dll
  Microsoft.Interop.LibraryImportGenerator.dll
  Microsoft.Interop.SourceGeneration.dll
  System.Text.Json.SourceGeneration.dll
  System.Text.RegularExpressions.Generator.dll
+<<<<<<< HEAD
 <DOTNET>/sdk/10.0.202/Sdks/Microsoft.NET.Sdk/analyzers/
+=======
+<DOTNET>/sdk/10.0.203/Sdks/Microsoft.NET.Sdk/analyzers/
+>>>>>>> 9dc8168d2c301e9c05f9fbb018a1f28d4a8c5f99
  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
  Microsoft.CodeAnalysis.NetAnalyzers.dll
 
 [analyzerConfigFiles]
+<<<<<<< HEAD
 <DOTNET>/sdk/10.0.202/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_10_default.globalconfig
+=======
+<DOTNET>/sdk/10.0.203/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_10_default.globalconfig
+>>>>>>> 9dc8168d2c301e9c05f9fbb018a1f28d4a8c5f99
 obj/Debug/net10.0/CSEJournalProgram.GeneratedMSBuildEditorConfig.editorconfig

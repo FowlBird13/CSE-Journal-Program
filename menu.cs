@@ -95,7 +95,7 @@ public class Menu
                 organizedEntry._bmpPrompt = rawEntry.Split("|")[1];
                 organizedEntry._bmpWriting = rawEntry.Split("|")[2];
                 //add the organized entry to the empty journal
-                newJournal._entries.Add(organizedEntry);
+                _bmpActiveJournal._entries.Add(organizedEntry); //hmmmm
                 }
         _bmpActiveJournal = newJournal;
         notLoaded = false;

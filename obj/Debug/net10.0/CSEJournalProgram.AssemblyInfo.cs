@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSEJournalProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44f663e25ccdea15980510a5c19f6c057a874c06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2118f890124d1ee795790bbacefef1b4a7e6bafc")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSEJournalProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSEJournalProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
