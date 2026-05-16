@@ -28,3 +28,18 @@ e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\r
 e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.pdb
 e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\CSEJournalProgram.genruntimeconfig.cache
 e:\학교\Idaho Sophomore-Spring\CSE 210\CSE-Journal-Program\obj\Debug\net10.0\ref\CSEJournalProgram.dll
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.exe
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.deps.json
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.runtimeconfig.json
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.dll
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\bin\Debug\net10.0\CSEJournalProgram.pdb
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfoInputs.cache
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.AssemblyInfo.cs
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.csproj.CoreCompileInputs.cache
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.sourcelink.json
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.dll
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\refint\CSEJournalProgram.dll
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.pdb
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\CSEJournalProgram.genruntimeconfig.cache
+C:\Users\jsbat\c_journal_code\CSEJournalProgram\obj\Debug\net10.0\ref\CSEJournalProgram.dll

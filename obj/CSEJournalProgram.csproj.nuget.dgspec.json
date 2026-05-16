@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj": {}
+    "C:\\Users\\jsbat\\c_journal_code\\CSEJournalProgram\\CSEJournalProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj": {
+    "C:\\Users\\jsbat\\c_journal_code\\CSEJournalProgram\\CSEJournalProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
+        "projectUniqueName": "C:\\Users\\jsbat\\c_journal_code\\CSEJournalProgram\\CSEJournalProgram.csproj",
         "projectName": "CSEJournalProgram",
-        "projectPath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\CSEJournalProgram.csproj",
-        "packagesPath": "C:\\Users\\bradl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bradl\\Documents\\Classes 2026 on harddrive\\Spring\\cse210-projects\\journal\\CSEJournalProgram\\obj\\",
+        "projectPath": "C:\\Users\\jsbat\\c_journal_code\\CSEJournalProgram\\CSEJournalProgram.csproj",
+        "packagesPath": "C:\\Users\\jsbat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jsbat\\c_journal_code\\CSEJournalProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bradl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jsbat\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
