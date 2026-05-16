@@ -25,15 +25,12 @@ public class Menu
     /// </summary>
     public Menu()
     {
-
         // Default methods are set to empty lambdas until I have the real functions
         _BmpOptions.Add(("Write", _bmpActiveJournal.BmpWriteEntry));
         _BmpOptions.Add(("Display", _bmpActiveJournal.DisplayJournal));
         _BmpOptions.Add(("Save", _bmpActiveJournal.SaveJournalAsFile));
         _BmpOptions.Add(("Load", LoadJournal));
         _BmpOptions.Add(("Quit", ()=>{_bmpInUse=false;}));
-
-        
     }
 
     /// <summary>
@@ -42,6 +39,7 @@ public class Menu
     /// </summary>
     public void bmpRun()
     {
+
         _bmpInUse = true;
         do
         {
